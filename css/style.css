@@ -186,18 +186,6 @@ html, body {
   75%  {top: 150px}
   100% {top: 0px;}
 }
-.star15 {
-    margin-left: 5%;
-    position: relative;
-    display: inline-block;
-    animation: blackstar15 5s infinite;
-}
-@keyframes blackstar15 {
-    0%   {top: 0px;}
-  25%  {top: 180px;}
-  75%  {top: 50px}
-  100% {top: 0px;}
-}
 .stars {
     display: inline-block;
     width: 100%;
