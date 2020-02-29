@@ -1,18 +1,25 @@
 html, body {
     width: 100%;
     height: 100%;
-    padding: 2%;
 }
 .container {
+    margin: 0 auto;
     width: 100%;
     height: 100%;
-    background-color: black
+    background-color: black;
+    animation: bluebackground 5s infinite;
+}
+@keyframes bluebackground {
+    0%   {top: 0px; background: black;}
+    25%  {top: 150px; background: #040d24;}
+    75%  {top: 100px; background: black;}
+    100% {top: 0px; background: #040d24;}
 }
 .staricon {
     width: 20px;
 }
 .star1 {
-    margin-left: 20px;
+    margin-left: 5px;
     position: relative;
     display: inline-block;
     animation: blackstar1 5s infinite;
@@ -24,7 +31,7 @@ html, body {
   100% {top: 0px;}
 }
 .star2 {
-    margin-left: 20px;
+    margin-left: 5%;
     position: relative;
     display: inline-block;
     animation: blackstar2 5s infinite;
@@ -36,7 +43,7 @@ html, body {
   100% {top: 0px;}
 }
 .star3 {
-    margin-left: 20px;
+    margin-left: 5%;
     position: relative;
     display: inline-block;
     animation: blackstar3 5s infinite;
@@ -48,7 +55,7 @@ html, body {
   100% {top: 0px;}
 }
 .star4 {
-    margin-left: 20px;
+    margin-left: 5%;
     position: relative;
     display: inline-block;
     animation: blackstar4 5s infinite;
@@ -60,7 +67,7 @@ html, body {
   100% {top: 0px;}
 }
 .star5 {
-    margin-left: 20px;
+    margin-left: 5%;
     position: relative;
     display: inline-block;
     animation: blackstar5 5s infinite;
@@ -72,7 +79,7 @@ html, body {
   100% {top: 0px;}
 }
 .star6 {
-    margin-left: 20px;
+    margin-left: 5%;
     position: relative;
     display: inline-block;
     animation: blackstar6 5s infinite;
@@ -84,7 +91,7 @@ html, body {
   100% {top: 0px;}
 }
 .star7 {
-    margin-left: 20px;
+    margin-left: 5%;
     position: relative;
     display: inline-block;
     animation: blackstar7 5s infinite;
@@ -96,7 +103,7 @@ html, body {
   100% {top: 0px;}
 }
 .star8 {
-    margin-left: 20px;
+    margin-left: 5%;
     position: relative;
     display: inline-block;
     animation: blackstar8 5s infinite;
@@ -108,7 +115,7 @@ html, body {
   100% {top: 0px;}
 }
 .star9 {
-    margin-left: 20px;
+    margin-left: 5%;
     position: relative;
     display: inline-block;
     animation: blackstar9 5s infinite;
@@ -120,7 +127,7 @@ html, body {
   100% {top: 0px;}
 }
 .star10 {
-    margin-left: 20px;
+    margin-left: 5%;
     position: relative;
     display: inline-block;
     animation: blackstar10 5s infinite;
@@ -132,7 +139,7 @@ html, body {
   100% {top: 0px;}
 }
 .star11 {
-    margin-left: 20px;
+    margin-left: 5%;
     position: relative;
     display: inline-block;
     animation: blackstar11 5s infinite;
@@ -144,7 +151,7 @@ html, body {
   100% {top: 0px;}
 }
 .star12 {
-    margin-left: 20px;
+    margin-left: 5%;
     position: relative;
     display: inline-block;
     animation: blackstar12 5s infinite;
@@ -156,7 +163,7 @@ html, body {
   100% {top: 0px;}
 }
 .star13 {
-    margin-left: 20px;
+    margin-left: 5%;
     position: relative;
     display: inline-block;
     animation: blackstar13 5s infinite;
@@ -168,7 +175,7 @@ html, body {
   100% {top: 0px;}
 }
 .star14 {
-    margin-left: 20px;
+    margin-left: 5%;
     position: relative;
     display: inline-block;
     animation: blackstar14 5s infinite;
@@ -180,7 +187,7 @@ html, body {
   100% {top: 0px;}
 }
 .star15 {
-    margin-left: 20px;
+    margin-left: 5%;
     position: relative;
     display: inline-block;
     animation: blackstar15 5s infinite;
@@ -191,75 +198,15 @@ html, body {
   75%  {top: 50px}
   100% {top: 0px;}
 }
-.star16 {
-    margin-left: 20px;
-    position: relative;
+.stars {
     display: inline-block;
-    animation: blackstar16 5s infinite;
+    width: 100%;
 }
-@keyframes blackstar16 {
-    0%   {top: 0px;}
-  25%  {top: 100px;}
-  75%  {top: 120px}
-  100% {top: 0px;}
-}
-.star17 {
-    margin-left: 20px;
-    position: relative;
+.alien {
     display: inline-block;
-    animation: blackstar17 5s infinite;
 }
-@keyframes blackstar17 {
-    0%   {top: 0px;}
-  25%  {top: 40px;}
-  75%  {top: 180px}
-  100% {top: 0px;}
-}
-.star18 {
-    margin-left: 20px;
-    position: relative;
-    display: inline-block;
-    animation: blackstar18 5s infinite;
-}
-@keyframes blackstar18 {
-    0%   {top: 0px;}
-  25%  {top: 180px;}
-  75%  {top: 80px}
-  100% {top: 0px;}
-}
-.star19 {
-    margin-left: 20px;
-    position: relative;
-    display: inline-block;
-    animation: blackstar19 5s infinite;
-}
-@keyframes blackstar19 {
-    0%   {top: 0px;}
-  25%  {top: 100px;}
-  75%  {top: 150px}
-  100% {top: 0px;}
-}
-.star20 {
-    margin-left: 20px;
-    position: relative;
-    display: inline-block;
-    animation: blackstar20 5s infinite;
-}
-@keyframes blackstar20 {
-    0%   {top: 0px;}
-  25%  {top: 180px;}
-  75%  {top: 50px}
-  100% {top: 0px;}
-}
-.star21 {
-    margin-left: 20px;
-    position: relative;
-    display: inline-block;
-    animation: blackstar21 5s infinite;
-}
-@keyframes blackstar21 {
-    0%   {top: 0px;}
-  25%  {top: 130px;}
-  75%  {top: 100px}
-  100% {top: 0px;}
+.alienphoto {
+    width: 100px;
+    position: fixed;
+    right: 10px;
 }
