@@ -19,8 +19,8 @@ html, body {
 }
 @keyframes blackstar1 {
     0%   {top: 0px;}
-  25%  {top: 200px;}
-  75%  {top: 50px}
+  25%  {top: 150px;}
+  75%  {top: 100px}
   100% {top: 0px;}
 }
 .star2 {
@@ -32,7 +32,7 @@ html, body {
 @keyframes blackstar2 {
     0%   {top: 0px;}
   25%  {top: 50px;}
-  75%  {top: 200px}
+  75%  {top: 180px}
   100% {top: 0px;}
 }
 .star3 {
@@ -44,7 +44,7 @@ html, body {
 @keyframes blackstar3 {
     0%   {top: 0px;}
   25%  {top: 200px;}
-  75%  {top: 50px}
+  75%  {top: 80px}
   100% {top: 0px;}
 }
 .star4 {
@@ -55,8 +55,8 @@ html, body {
 }
 @keyframes blackstar4 {
     0%   {top: 0px;}
-  25%  {top: 50px;}
-  75%  {top: 200px}
+  25%  {top: 100px;}
+  75%  {top: 150px}
   100% {top: 0px;}
 }
 .star5 {
@@ -67,7 +67,67 @@ html, body {
 }
 @keyframes blackstar5 {
     0%   {top: 0px;}
+  25%  {top: 180px;}
+  75%  {top: 50px}
+  100% {top: 0px;}
+}
+.star6 {
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+    animation: blackstar1 10s infinite;
+}
+@keyframes blackstar6 {
+    0%   {top: 0px;}
+  25%  {top: 150px;}
+  75%  {top: 100px}
+  100% {top: 0px;}
+}
+.star7 {
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+    animation: blackstar2 10s infinite;
+}
+@keyframes blackstar7 {
+    0%   {top: 0px;}
+  25%  {top: 50px;}
+  75%  {top: 180px}
+  100% {top: 0px;}
+}
+.star8 {
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+    animation: blackstar3 10s infinite;
+}
+@keyframes blackstar8 {
+    0%   {top: 0px;}
   25%  {top: 200px;}
+  75%  {top: 80px}
+  100% {top: 0px;}
+}
+.star9 {
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+    animation: blackstar4 10s infinite;
+}
+@keyframes blackstar9 {
+    0%   {top: 0px;}
+  25%  {top: 100px;}
+  75%  {top: 150px}
+  100% {top: 0px;}
+}
+.star10 {
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+    animation: blackstar5 10s infinite;
+}
+@keyframes blackstar10 {
+    0%   {top: 0px;}
+  25%  {top: 180px;}
   75%  {top: 50px}
   100% {top: 0px;}
 }
