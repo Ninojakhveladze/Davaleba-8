@@ -192,3 +192,35 @@ html, body {
 .alienphoto {
     width: 100px;
 }
+.planets {
+    width: 100%;
+    height: 400px;
+}
+.astronaut {
+    width: 300px;
+}
+.animation-1 {
+    display: inline-block;
+    animation: animation-1 5s infinite;
+}
+@keyframes animation-1 {
+    form {top: 0px;}
+    to {top: 50px;}
+}
+.astronaut {
+    width: 100%;
+    height: 300px;
+}
+.astronaut-photo {
+    top: 50px;
+    position: relative;
+    width: 200px;
+    left: 50px;
+    animation: astronaut-move 10s infinite;
+}
+@keyframes astronaut-move {
+    0% { left: 0px;}
+    50% {left: 80%;}
+    100% {left: 0px;}
+    to {transform: rotate(360deg) ;}
+}
